@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Are you coming tomorrow ?"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginTop="70dp"
+            android:layout_gravity="center"
+
+            />
+
+
+<GridLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="1"
+    android:layout_marginTop="70dp"
+    android:layout_gravity="center">
+
+
+    <Button
+        android:id="@+id/yes"
+        android:onClick="ohYes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="YES"
+        android:textStyle="bold"
+        android:ems="12"
+        android:textColor="#ffffff"
+        android:background="@drawable/yesbtn"
+        />
+
+    <Button
+        android:id="@+id/no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="12"
+        android:onClick="ohNo"
+        android:text="NO"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:background="@drawable/nobtn"/>
+</GridLayout>
+
+
+    <Button
+        android:id="@+id/back"
+        android:onClick="goBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="Go Back "
+        android:background="@drawable/roundbtn"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:ems="12"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

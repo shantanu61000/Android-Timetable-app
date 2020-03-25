@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "678604889467",
+    "firebase_url": "https://root1-885b3.firebaseio.com",
+    "project_id": "root1-885b3",
+    "storage_bucket": "root1-885b3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678604889467:android:0da2e7e8e6a7b1d469f1de",
+        "android_client_info": {
+          "package_name": "com.example.xaviers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678604889467-8hqg5n8samfplpokukj398r79uc7hidj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.xaviers",
+            "certificate_hash": "8bb22377aac0e446ee01854dbef6ab752f10a3e6"
+          }
+        },
+        {
+          "client_id": "678604889467-2hu3qr94cccb91evrr2oi4hk9g135flq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCW4M4KLpq6enyDx4r9tXUc_XlXXlHCyqc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "678604889467-2hu3qr94cccb91evrr2oi4hk9g135flq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678604889467:android:9c4d4495fa8cd48f69f1de",
+        "android_client_info": {
+          "package_name": "com.hfad.teacher_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678604889467-bg9168sdlnautu40vtosor3n6sf03vrv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hfad.teacher_app",
+            "certificate_hash": "8a892e736e99f11e592c51fb6dbdd798fc7c7a82"
+          }
+        },
+        {
+          "client_id": "678604889467-2hu3qr94cccb91evrr2oi4hk9g135flq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCW4M4KLpq6enyDx4r9tXUc_XlXXlHCyqc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "678604889467-2hu3qr94cccb91evrr2oi4hk9g135flq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678604889467:android:de82333bf6b7746169f1de",
+        "android_client_info": {
+          "package_name": "com.hfad.teacher_app1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678604889467-1b07gs7ailue1ccib0vpqu51dkbdvgf5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hfad.teacher_app1",
+            "certificate_hash": "8a892e736e99f11e592c51fb6dbdd798fc7c7a82"
+          }
+        },
+        {
+          "client_id": "678604889467-2hu3qr94cccb91evrr2oi4hk9g135flq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCW4M4KLpq6enyDx4r9tXUc_XlXXlHCyqc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "678604889467-2hu3qr94cccb91evrr2oi4hk9g135flq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

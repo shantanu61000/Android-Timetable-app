@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@mipmap/xav"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:orientation="vertical">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="1"
+            android:rowCount="7"
+            android:background="@drawable/bglogintransparent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="TEACHER LOGIN"
+                android:shadowDx="10"
+                android:shadowDy="10"
+                android:shadowColor="@color/darkgreen"
+                android:textAllCaps="true"
+                android:textColor="#ffffff"
+                android:textSize="26dp"
+                android:textStyle="bold"/>
+
+            <Space android:layout_height="30dp" />
+
+            <EditText
+                android:id="@+id/unameid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/ic_person"
+                android:ems="12"
+                android:hint="  Email"
+                android:textColorHint="#ffffff"
+                android:textColor="#ffffff"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/pass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:drawableLeft="@drawable/ic_vpn_key_black_24dp"
+                android:ems="12"
+                android:hint="  Password"
+                android:textColorHint="#ffffff"
+                android:textColor="#ffffff"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/loginbg"
+                android:ems="15"
+                android:text="Login"
+                android:textStyle="bold"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/loginbg"
+                android:ems="15"
+                android:onClick="addUser"
+                android:text="Register"
+                android:textColor="#ffffff" />
+
+<Space
+    android:layout_height="10dp"></Space>
+        </GridLayout>
+
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/loginProg"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+</LinearLayout>
